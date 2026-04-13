@@ -6,11 +6,20 @@ type TimelineItem = {
 
 export const timelineItems: TimelineItem[] = [
   {
+    date: "April 2025 - Present",
+    title: "Freelance Frontend Engineer",
+    description: [
+      "Cut Largest Contentful Paint from 5.0s to 0.5s and reduced CLS from 3-4 to 0 by reworking critical rendering paths, optimizing assets, and tightening layout stability across key pages.",
+      "Designed and shipped high-impact React interfaces with smooth interactions, motion-rich UI details, and reusable components that improved product polish and development speed.",
+      "Improved Core Web Vitals and reduced bundle size through code splitting, lazy loading, and smarter asset delivery, helping pages load faster and increasing reach by 40%+ through better engagement and retention."
+    ],
+  },
+  {
     date: "October 2023 - June 2025",
     title: "Software Engineer Intern - The Software Practice (Singapore,Remote)",
     description: [
-      "Maintained high code quality standards via regular SonarQube scans, extensive refactoring to eliminate 1500+ code smells, and wrote XUnit tests for over 500 backend endpoints within a Microservices Architecture. Achieved 80%+ code coverage across a 350k+ line codebase.",
-      "Developed secure RESTful APIs with proper input validation, request sanitization, and error handling to guard against common web vulnerabilities such as XSS, SQL injection, and over-posting attacks"
+      "Built responsive frontend features with React and Next.js, translating product requirements into polished user interfaces with reusable components and clean state management.",
+      "Worked closely with design and backend teams to improve UX, optimize rendering performance, and deliver consistent, accessible interfaces across the application."
     ],
   },
   {

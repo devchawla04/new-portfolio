@@ -9,7 +9,7 @@ export default function Experience() {
           {jobs.slice(0, 3).map((job, index) => (
             <li key={job.id} className="">
               <h3 className="font-semibold flex items-center gap-2">
-                {index !== 0 && (
+                {index === 0 && (
                   <span className="relative flex size-3 items-center justify-center">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full dark:bg-pink-500 bg-pink-500 opacity-75"></span>
                     <span className="relative inline-flex size-2 rounded-full dark:bg-pink-500 bg-pink-500"></span>
