@@ -15,6 +15,13 @@ export const timelineItems: TimelineItem[] = [
     ],
   },
   {
+    date: "Jan 2026 - November 2027",
+    title: "Masters in Computer Application, Amity Online, Noida",
+    description: [
+      "Specialized in advanced software development, algorithms, and system design, building on my strong foundation from my Master's degree.",
+    ],
+  },
+  {
     date: "October 2023 - June 2025",
     title: "Software Engineer Intern - The Software Practice (Singapore,Remote)",
     description: [
